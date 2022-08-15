@@ -1,0 +1,20 @@
+ /*reset para o crossbrowser*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ p {
+    color: greenyellow;
+}
+
+header {
+    height: 80px;
+    background-color: grey;
+    display: flex;
+}
+
+.logo{
+    max-height: 60px; /*manutenção da altura do elemento para não quebrar o layout*/
+}
